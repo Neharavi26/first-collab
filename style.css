@@ -1,5 +1,18 @@
 body{
+    background-image: ;
     padding: 0;
     border: 0;
-    background-color: rgb(136, 204, 204);
+}
+#name-banner{
+    text-align: center;
+    background-color: cadetblue;
+    font-family: monospace;
+    font-weight: 900;
+    color: blueviolet;
+    width: 30%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    font-size: large;
+    opacity: 0.5;
+
 }
