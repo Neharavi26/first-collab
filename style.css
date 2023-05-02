@@ -1,18 +1,103 @@
-body{
-    background-image: ;
-    padding: 0;
-    border: 0;
-}
-#name-banner{
-    text-align: center;
-    background-color: cadetblue;
-    font-family: monospace;
-    font-weight: 900;
-    color: blueviolet;
-    width: 30%;
-    border: 0.5px solid black;
-    border-radius: 10px;
-    font-size: large;
-    opacity: 0.5;
 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin: 1.5em 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5em 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #c4a1a1;
+    color: #532424;
+    padding: 2em;
+    text-align: left;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+
+
+main {
+    margin: 0 auto;
+    padding: 2em;
+    background-color: antiquewhite;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-item {
+    flex-basis: calc(33.33% - 1em);
+    margin-bottom: 1.5em;
+}
+
+.contact-item a {
+    display: block;
+}
+
+.contact-item i {
+    margin-right: 0.5em;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .contact-item {
+        flex-basis: 100%;
+    }
 }
