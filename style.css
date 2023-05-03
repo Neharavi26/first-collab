@@ -1,105 +1,55 @@
-
-
-* {
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+body{
+    background: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: bold;
-    margin: 1.5em 0;
+.menu{
+    overflow: hidden;
+    background-color: aqua;
+    
 }
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 1.5em 0;
-}
-
-li {
-    margin-bottom: 0.5em;
-}
-
-a {
-    color: #337ab7;
+.menu a{
+    float: left;
+    text-align: center;
+    padding: 13px 90px;
     text-decoration: none;
-}
+    color: black;
+    font-size: 18px;
 
-a:hover {
-    text-decoration: underline;
-}
 
-header {
-    background-color: #c4a1a1;
-    color: #532424;
-    padding: 2em;
-    text-align: left;
 }
-
-h1 {
-    font-size: 3em;
-    margin-bottom: 0.5em;
+.menu a:hover{
+    background-color: black;
+    color: white;
 }
 
 
-
-main {
-    margin: 0 auto;
-    padding: 2em;
-    background-color: antiquewhite;
+.menu a.active{
+    background-color: black;
+    color: white;
 }
 
-section {
-    margin-bottom: 2em;
+h1{
+    font-weight: bold;
+    margin: 45px;
+    text-align:left;
+    font-size: 80px;
+}
+h2{
+
+    margin: 45px ;
+    font-size:40px ;
+    
+}
+p{
+    font-size: 30px;
+    margin: 45px;
 }
 
-h2 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
-}
-
-p {
-    margin-bottom: 1em;
-}
-
-
-.contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.contact-item {
-    flex-basis: calc(33.33% - 1em);
-    margin-bottom: 1.5em;
-}
-
-.contact-item a {
-    display: block;
-}
-
-.contact-item i {
-    margin-right: 0.5em;
-}
-
-
-
-@media screen and (max-width: 768px) {
-    .contact-item {
-        flex-basis: 100%;
-    }
-}
